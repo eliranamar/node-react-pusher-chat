@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' src/server/index.ts"
+    "dev:server": "./node_modules/.bin/nodemon --watch './**/*.ts' --exec 'ts-node' src/server/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
